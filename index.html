@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+   <!-- Название страницы, которое отображается в верху вкладки браузера -->
+   <title>Super Timoteo</title>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <meta name="viewport" content="width=device-width" initial-scale=1.0/>
+   <!-- изображение Марио, отображается перед названием страницы вверху вкладки браузера -->
+   <link rel="icon" href="./my_favicon.png" type="image/png">
+   <!-- подключение файла стилей, который убирает настройки браузера для одинакового отображения страницы во всех браузерах -->
+   <link rel="stylesheet" href="./resetStyle.css">
+   <!-- подключение файла стилей -->
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <main class="main">
+         <input type="button" onclick="alert('Обязательно бахнем. И не раз. Весь мир в труху. Но потом.')" value="Может бахнем?"/>
+         <!-- Облако -->
+         <img class="cloud_1" src="./cloud.png" alt="Облако">
+         <!-- Облако -->
+         <img class="cloud_2" src="./cloud.png" alt="Облако">
+         <!-- Облако -->
+         <img class="cloud_3" src="./cloud.png" alt="Облако">
+         <!-- Облако -->
+         <img class="cloud_4" src="./cloud.png" alt="Облако">
+         <!-- Полка на которой стоит Марио -->
+         <img class="shelf" src="./shelf.jpg" alt="Полка на которой стоит Mario">
+         <!-- Изображение Марио -->
+         <div class="mario duble_jump">
+            <img class="mario-img" src="./tim_run.png" alt="Super Timoteo">
+         </div>
+         <!-- Зелёная труба -->
+         <img class="green__pipe" src="./green__pipe.png" alt="Зеленая труба">
+         <!-- Пол -->
+         <div class="floor">
+            <img class="floor-img" src="./floor.jpg" alt="Пол из камней">
+         </div>
+
+         <!-- аудио файл, воспроизводится при прыжке Марио -->
+         <audio src="./sound1.mp3" preload></audio>
+         <div class="container">
+            <section class="data">
+               <div class="foto">
+                  <div class="foto__frame">
+                     <!-- Рамка для фото -->
+                     <img src="./foto__frame.jpg" alt="Рамка для фотографии из камней">
+                  </div>
+                  <div class="foto__foto">
+                     <!-- Фото -->
+                     <img src="./foto1.png" alt="Фотография">
+                  </div>
+               </div>
+               <div class="text">
+                  <!-- Имя -->
+                  <div class="name">
+                     <div>ТИМОФЕЙ</div>
+                     <div>АДМАКИН</div>
+                  </div>
+                  <div>
+                     <div class="list"><span>Годов</span><span>...</span><span>38</span></div>
+                     <div class="list"><span>Занятость</span><span>...</span><span>gloomy frontender</span></div>
+                     <div class="list"><span>В чем сила?</span><span>...</span><span>in truth</span></div>
+                     <div class="list"><span>Город</span><span>...</span><span>which doesn't exist</span></div>
+
+                  </div>
+               </div>
+            </section>
+            <!-- Ссылки -->
+            <section class="links">
+               <div class="link"><a href="https://t.me/timoteo_4">Telegram</a></div>
+               <div class="link"><a href="mailto:tim.study@yandex.ru">Email</a></div>
+
+            </section>
+         </div>
+      </main>
+   </div>
+   <!-- подключение файла javascript -->
+   <script src="./script.js"></script>
+</body>
+
+</html>
