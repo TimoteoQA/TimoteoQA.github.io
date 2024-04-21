@@ -5,10 +5,10 @@
    font-weight: 400;
    src: local("Nineteen Ninety Seven"),
       /* Пути к файлам шрифта */
-      url("./NineteenNinetySeven.otf") format("otf"),
-      url("./NineteenNinetySeven.ttf") format("ttf"),
-      url("./NineteenNinetySeven.woff") format("woff"),
-      url("./NineteenNinetySeven.woff2") format("woff2");
+      url("./fonts/NineteenNinetySeven.otf") format("otf"),
+      url("./fonts/NineteenNinetySeven.ttf") format("ttf"),
+      url("./fonts/NineteenNinetySeven.woff") format("woff"),
+      url("./fonts/NineteenNinetySeven.woff2") format("woff2");
 }
 
 /* замена изображения курсора */
@@ -19,7 +19,7 @@ html {
 /* замена изображения курсора при наведения на ссылки*/
 .mario-img,
 a {
-   cursor: url("./cuesor_on_link.png") 18 0, auto;
+   cursor: url("./image/cuesor_on_link.png") 18 0, auto;
 }
 
 /* установка шрифта для всего документа */
@@ -38,7 +38,7 @@ body {
    /* а также высота может быть больше высоты экрана если требуется вместить содержимое страницы */
    height: 100%;
    /* картинка фона */
-   background-image: url(./fon2_1440.jpg);
+   background-image: url(./image/fon2_1440.jpg);
    /* настройки отображения картинки */
    background-repeat: no-repeat;
    background-size: cover;
@@ -50,7 +50,7 @@ body {
 @media (max-width: 1439.98px) {
    .main {
       /* картинка фона */
-      background-image: url(./fon2_1440.jpg);
+      background-image: url(./image/fon2_1440.jpg);
       padding-bottom: 40vw;
    }
 }
@@ -583,7 +583,7 @@ a:hover {
 }
 
 input {
-   cursor: url("./prapor_cursor.png"), auto;
+   cursor: url("./image/prapor_cursor.png"), auto;
 }
 
 input:hover {
