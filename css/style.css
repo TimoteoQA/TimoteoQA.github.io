@@ -38,7 +38,7 @@ body {
    /* а также высота может быть больше высоты экрана если требуется вместить содержимое страницы */
    height: 100%;
    /* картинка фона */
-   background-image: url(../image/fon2_1440.jpg), auto;
+   background-image: url(../image/fon2_1440.jpg);
    /* настройки отображения картинки */
    background-repeat: no-repeat;
    background-size: cover;
@@ -50,7 +50,7 @@ body {
 @media (max-width: 1439.98px) {
    .main {
       /* картинка фона */
-      background-image: url(../image/fon2_1440.jpg), auto;
+      background-image: url(../image/fon2_1440.jpg);
       padding-bottom: 40vw;
    }
 }
