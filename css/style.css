@@ -583,7 +583,7 @@ a:hover {
 }
 
 input {
-   cursor: url("../image/prapor_cursor.png"), auto;
+   cursor: url("/image/prapor_cursor.png"), auto;
 }
 
 input:hover {
